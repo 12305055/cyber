@@ -1,7 +1,6 @@
 <?php
 // USERS DATA FILE
 define("USERS_FILE", "users.json");
-include("./database.php");
 
 session_start(); // Start session for user management
 
@@ -87,7 +86,7 @@ $page = $_GET['page'] ?? 'login';
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PIN Verification</title>
+    <title>PHP Login System</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <style>
         body, html {
